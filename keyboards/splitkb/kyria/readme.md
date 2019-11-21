@@ -4,9 +4,9 @@
 
 An ergonomical 40% split keyboard
 
-* Keyboard Maintainer: [splitkb.com](https://github.com/splitkb)
-* Hardware Supported: Pro Micro 5V/16MHz and compatible.
-* Hardware Availability: [splitkb.com](https://splitkb.com/products/kyria-pcb-kit)
+-   Keyboard Maintainer: [splitkb.com](https://github.com/splitkb)
+-   Hardware Supported: Pro Micro 5V/16MHz and compatible.
+-   Hardware Availability: [splitkb.com](https://splitkb.com/products/kyria-pcb-kit)
 
 Make example for this keyboard (after setting up your build environment):
 
@@ -28,16 +28,16 @@ A build guide for the Kyria can be found at [docs.splitkb.com](https://docs.spli
 
 If you're one of the lucky people to have Proton Cs to use with their Kyria, there are a couple of caveats to getting this working.
 
-1. You need to have 2x Proton Cs, as you cannot mix and match with Pro Micros or Elite C's.  They both need to be Proton Cs.
+1. You need to have 2x Proton Cs, as you cannot mix and match with Pro Micros or Elite C's. They both need to be Proton Cs.
 2. You'll need to do some modding to enable proper support with the Proton C.
 
-By design, the Kyria uses every available pin on the Pro Micro footprint.  This includes using D3 (RX) for RGB.  This poses a challenge with using the Proton C, since it needs both the TX and RX pins. The Proton C needs both pins, especially if you plan on using Full Duplex Serial. 
+By design, the Kyria uses every available pin on the Pro Micro footprint. This includes using D3 (RX) for RGB. This poses a challenge with using the Proton C, since it needs both the TX and RX pins. The Proton C needs both pins, especially if you plan on using Full Duplex Serial.
 
 To fix this, you need to break off the last header position on the right-hand side on the footprint. This is the `TX0/D3` pad. Leave this pad without a header connected to.
 
-From the A9 pin on the Proton C, you want to run a wire from it to the `SDA + Extra Data` pad near the TRRS jack on the PCB. This will allow for proper, full duplex communication over the TRRS cable. 
+From the A9 pin on the Proton C, you want to run a wire from it to the `SDA + Extra Data` pad near the TRRS jack on the PCB. This will allow for proper, full duplex communication over the TRRS cable.
 
-To get RGB working properly, as well, you want to run a wire from the `A3` pin on the Proton C, next to the GND and DFU pin, right under the USB port.  Run this to the `TX0/D3` pad (the one you left without a header pin on the PCB).
+To get RGB working properly, as well, you want to run a wire from the `A3` pin on the Proton C, next to the GND and DFU pin, right under the USB port. Run this to the `TX0/D3` pad (the one you left without a header pin on the PCB).
 
 Once you've done that, you can solder in the Proton C. and flash it.
 
