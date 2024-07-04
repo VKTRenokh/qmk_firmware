@@ -15,4 +15,6 @@
 
 DEFAULT_FOLDER = splitkb/aurora/corne/rev1
 RGBLIGHT_ENABLE = yes # Enables QMK's RGB code
-WS2812_DRIVER = vendor # Use the RP2040's PIO interface
+RGB_MATRIX_ENABLE = no
+# WS2812_DRIVER = vendor # Use the RP2040's PIO interface
+MOUSEKEY_ENABLE = yes
