@@ -284,13 +284,3 @@ bool encoder_update_kb(uint8_t index, bool clockwise) {
     return true;
 }
 #endif
-
-void keyboard_pre_init_user(void) {
-    setPinOutput(24);
-
-    writePinHigh(24);
-}
-
-void matrix_init_user(void) {
-    rgblight_sethsv(0x00, 0xFF, 0x00);
-}
