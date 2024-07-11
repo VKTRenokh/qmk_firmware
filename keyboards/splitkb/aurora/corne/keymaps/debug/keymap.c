@@ -68,5 +68,5 @@ bool oled_task_user(void) {
 void keyboard_pre_init_user(void) {
     setPinOutput(24);
 
-    writePinHigh(24);
+    writePinHigh(24)
 }
