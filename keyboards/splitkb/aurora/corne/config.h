@@ -1,3 +1,4 @@
+// NOTE: note just for me: edit this file only with helix
 /* Copyright 2022 splitkb.com <support@splitkb.com>
  *
  * This program is free software: you can redistribute it and/or modify
@@ -27,3 +28,4 @@
 #define RGBLIGHT_SLEEP
 #define ENABLE_RGBLIGHT_EFFECT_RAINBOW_SWIRL
 #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#define RGBLIGHT_EFFECT_TWINKLE

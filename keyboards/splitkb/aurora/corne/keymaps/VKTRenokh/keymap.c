@@ -1,3 +1,4 @@
+// NOTE: note just for me: edit this file only with helix
 #include QMK_KEYBOARD_H
 
 #define RGB_DISABLE_TIMEOUT 1000
@@ -18,7 +19,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [1] = LAYOUT_split_3x6_3(
         KC_TAB,   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,          KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC,
         KC_LCTL,  KC_ESC,  KC_MS_LEFT,KC_MS_DOWN,KC_MS_UP,KC_MS_RIGHT,KC_LEFT, KC_DOWN,  KC_UP,   KC_RIGHT, XXXXXXX, KC_CAPS,
-        KC_LSFT,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        KC_LSFT,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, CW_TOGG,
                                     KC_LGUI,  _______, KC_SPC,  KC_ENT,  MO(3),  KC_LGUI
     ),
 
