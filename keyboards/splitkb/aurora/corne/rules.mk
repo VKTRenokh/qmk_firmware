@@ -18,3 +18,4 @@ RGBLIGHT_ENABLE = yes # Enables QMK's RGB code
 RGB_MATRIX_ENABLE = no
 # WS2812_DRIVER = vendor # Use the RP2040's PIO interface
 MOUSEKEY_ENABLE = yes
+CAPS_WORD_ENABLE = yes
