@@ -22,10 +22,6 @@
 #    define OLED_FONT_H "keyboards/splitkb/aurora/corne/glcdfont.c"
 #endif
 
-#define RGBLIGHT_DEFAULT_HUE 150 // Hue for pink
-#define RGBLIGHT_DEFAULT_SAT 255 // Saturation max
-#define RGBLIGHT_DEFAULT_VAL 255 // Brightness max
 #define RGBLIGHT_SLEEP
 #define ENABLE_RGBLIGHT_EFFECT_RAINBOW_SWIRL
 #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-#define RGBLIGHT_EFFECT_TWINKLE
