@@ -22,6 +22,7 @@
 #    define OLED_FONT_H "keyboards/splitkb/aurora/corne/glcdfont.c"
 #endif
 
-#define RGBLIGHT_SLEEP
+#define RGBLIGHT_SLEEP_TIMEOUT 1
 #define ENABLE_RGBLIGHT_EFFECT_RAINBOW_SWIRL
 #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#define NO_ALT_REPEAT_KEY

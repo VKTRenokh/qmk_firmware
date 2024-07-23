@@ -14,8 +14,10 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 DEFAULT_FOLDER = splitkb/aurora/corne/rev1
-RGBLIGHT_ENABLE = yes # Enables QMK's RGB code
+RGBLIGHT_ENABLE = yes
 RGB_MATRIX_ENABLE = no
-# WS2812_DRIVER = vendor # Use the RP2040's PIO interface
 MOUSEKEY_ENABLE = yes
 CAPS_WORD_ENABLE = yes
+REPEAT_KEY_ENABLE = yes
+KEY_LOCK_ENABLE = yes
+
