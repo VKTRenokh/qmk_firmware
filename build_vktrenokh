@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+qmk compile --keyboard splitkb/aurora/corne --keymap VKTRenokh -e CONVERT_TO=liatris
