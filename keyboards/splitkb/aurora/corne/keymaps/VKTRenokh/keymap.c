@@ -1,4 +1,5 @@
 #include QMK_KEYBOARD_H
+// TODO: fix this keymap later
 
 #define DONT_LIGHT_UP_PIN ;
 
